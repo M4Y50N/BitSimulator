@@ -33,9 +33,33 @@
 					<li style="margin-left: 50px">
 						<a href="./Apresentation.html">Home</a>
 					</li>
-					<li class="li-navbar">
-						<div class="li-intrucoes" onclick="AlternarVisibilidade()">
-							Instruções
+
+					<li>
+						<div style="color: white">
+							<span class="ng-binding" id="delayContainer">0</span>&nbsp;ms
+						</div>
+					</li>
+					<li style="margin-left: 75%">
+						<div style="color: white">
+							<span class="ng-binding" id="delayContainer">0</span>&nbsp;ms
+						</div>
+					</li>
+					<li style="margin-left: 5%">
+						<div id="right">
+							<input
+								id="regulador"
+								type="range"
+								min="100"
+								max="150"
+								step="0"
+								value="100"
+								style="
+									-webkit-appearance: none !important;
+									border: none;
+									outline: 0px solid white;
+									border-radius: 50px;
+								"
+							/>
 						</div>
 					</li>
 					<li>
@@ -341,7 +365,7 @@
 							registrador.
 						</p>
 						<p style="color: black; font-size: 1.3em">
-							<b> STO: </b>
+							<strong> STO: </strong>
 							É o armazenamento do dado que está no registrador para a memória
 						</p>
 

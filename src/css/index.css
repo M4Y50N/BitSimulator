@@ -39,7 +39,15 @@ body {
 
 .li-navbar {
 	margin-left: 25px;
-	margin-right: 1000px;
+	margin-right: 850px;
+}
+
+#title-sistem:visited {
+	color: white;
+}
+
+#title-sistem:hover {
+	color: rgb(30, 30, 30);
 }
 
 a,
@@ -133,11 +141,12 @@ p {
 
 #div-container {
 	background-color: white;
+	color: black;
 	text-align: left;
 	overflow-y: scroll;
 	padding: 35px;
 	margin-bottom: 25px;
-	top: 270px;
+	top: 240px;
 	width: 70%;
 	height: 60%;
 }
